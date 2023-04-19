@@ -1,0 +1,18 @@
+package ch02.sec02;
+
+public class IntegerLiteralExample {
+
+	public static void main(String[] args) {
+		int var1 = 0b1011;
+		int var2 = 0206;
+		int var3 = 365;
+		int var4 = 0xB3;
+		
+		//컨트롤 + D = 라인삭제
+		//컨트롤 + alt +방향키 = 라인 복사
+		System.out.println();
+		System.out.println();
+		System.out.println();
+	}
+
+}

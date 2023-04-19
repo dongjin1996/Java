@@ -1,0 +1,11 @@
+package ch02.sec01;
+
+public class VariableExchangeExample {
+
+	public static void main(String[] args) {
+		int x =3; // 00000000 00000000 00000000 00000000
+		int y =5; // 00000000 00000000 00000000 00000000
+
+	}
+
+}
