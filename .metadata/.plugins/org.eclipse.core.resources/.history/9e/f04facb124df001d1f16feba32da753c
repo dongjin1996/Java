@@ -1,0 +1,23 @@
+package ch02.sec13;
+
+import java.util.Scanner;
+
+public class ScannerExample {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.println("x값 입력: ");
+		String strX = scanner.nextLine(); //문자열 입력받음
+		int x = Integer.parseInt(strX); // 문자열 => 숫자열로 변환
+		
+		System.out.println("x: " + x);
+		
+		System.out.println("y값 입력: ");
+		String strY = scanner.nextLine(); //문자열 입력받음
+		int x = Integer.parseInt(strY); // 문자열 => 숫자열로 변환
+		
+		
+	}
+
+}

@@ -1,0 +1,12 @@
+package ch03.sec04;
+
+public class AccuracyExample1 {
+
+	public static void main(String[] args) {
+		//정확한 계산은 정수 연산으로 해야한다.
+		
+		int apple = 1; //사과 1조각
+		double pieceUnit = 0.1; // 10분의1
+	}
+
+}

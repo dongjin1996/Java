@@ -1,0 +1,10 @@
+package ch04.sec02;
+
+public class IfnestedExample {
+
+	public static void main(String[] args) {
+		double score = Math.random(); //0.0 ~ 1.0 사이의 숫자를 만들어준다
+		System.out.println(score);
+	}
+
+}

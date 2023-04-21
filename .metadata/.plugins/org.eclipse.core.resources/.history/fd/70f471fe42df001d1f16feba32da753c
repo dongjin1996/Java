@@ -1,0 +1,12 @@
+package ch03.sec06;
+
+public class CompareOperatorExample {
+
+	public static void main(String[] args) {
+		char char1 = 'A';
+		char char2 = 'B';
+		
+		boolean result = (char1 < char2);
+	}
+
+}

@@ -1,0 +1,19 @@
+package ch04.sec03;
+
+public class SwitchCharExample {
+
+	public static void main(String[] args) {
+		char grade = 'B';
+		
+		switch (grade) {
+		case 'A':
+		case 'B':
+			System.out.println("우수회원 입니다.");
+			break;
+
+		default:
+			break;
+		}
+	}
+
+}
