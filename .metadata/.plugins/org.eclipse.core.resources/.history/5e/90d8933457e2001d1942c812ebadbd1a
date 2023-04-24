@@ -1,0 +1,11 @@
+package ch05.sec06;
+
+public class ArrayCreateByValueListExample {
+
+	public static void main(String[] args) {
+		
+		
+		
+	}
+
+}

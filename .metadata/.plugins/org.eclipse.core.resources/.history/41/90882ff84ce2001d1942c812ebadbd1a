@@ -1,0 +1,19 @@
+package ch05.sec05;
+
+public class EqualsExample {
+
+	public static void main(String[] args) {
+		// strVar1 과 strVar2는 같은 주소를 가지고 있다.
+		String strVar1 = "홍길동";
+		String strVar2 = "홍길동";
+		
+		//주소를 비교
+		if(strVar1 == strVar2) {
+			System.out.println("strVar1과 strVar2는 같은 주소를 참조");
+		} else {
+			System.out.println("strVar1과 strVar2는 다른 주소를 참조");			
+		}
+	
+	}
+
+}
