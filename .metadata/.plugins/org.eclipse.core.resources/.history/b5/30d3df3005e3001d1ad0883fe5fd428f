@@ -1,0 +1,13 @@
+package ch05.sec12;
+
+public enum Week {
+	
+	//열거 상수는 무조건 대문자를 쓴다.
+	MONDAY,
+	TUESDAY,
+	WEDNESDAY,
+	THURSDAY,
+	FRIDAY,
+	SATURDAY,
+	SUNDAY
+}

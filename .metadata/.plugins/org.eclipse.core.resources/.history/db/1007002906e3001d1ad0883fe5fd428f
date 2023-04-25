@@ -1,0 +1,16 @@
+package ch05.sec12;
+
+import java.util.Calendar;
+
+public class WeekExample {
+
+	public static void main(String[] args) {
+		// week 타입 변수 선언
+		Week today = null;
+		
+		//오늘의 요일 얻기
+		Calendar cal = Calendar.getInstance();
+		
+	}
+
+}
