@@ -1,0 +1,22 @@
+package ch06.sec08.exam03;
+
+public class Car {
+	//필드
+	int gas; //휘발유의 양
+	
+	//생성자가 없으면 Car(){} 중요.인스턴스가 생성될때 한번만 실행!
+	
+	
+	//메소드 중요. 메소드는 여러번 실행한다.
+	void setGas(int gas) { //휘발유를 채워넣는다.
+		this.gas = gas;
+	}
+	
+	boolean isLeftGas() { //휘발유의 잔량을 보여줌
+		
+	}
+	
+	void run() { //자동차가 달린다( 휘발유 소모).
+		
+	}
+}

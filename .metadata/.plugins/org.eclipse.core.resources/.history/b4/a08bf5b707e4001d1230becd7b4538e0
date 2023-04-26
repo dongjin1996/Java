@@ -1,0 +1,5 @@
+package ch06.sec10.exam01;
+
+public class Calculator {
+
+}

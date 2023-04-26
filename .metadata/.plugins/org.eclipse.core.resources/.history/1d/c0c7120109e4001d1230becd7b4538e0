@@ -1,0 +1,22 @@
+package ch06.sec10.exam01;
+
+public class CalculatorExample {
+
+	public static void main(String[] args) {
+		//Calculator myCalc1 = new Calculator();
+		//myCalc1.pi = 4;
+		Calculator.pi = 4;
+		System.out.println("myCalc.pi " + Calculator.pi);
+		
+		//Calculator myCalc2 = new Calculator();
+		//myCalc2.pi = 5;
+		Calculator.pi = 5;
+		System.out.println("myCalc.pi " + Calculator.pi);
+		
+		//Calculator myCalc3 = new Calculator();
+		//myCalc3.pi = 6;		
+		Calculator.pi = 6;
+		System.out.println("myCalc.pi " + Calculator.pi);
+	}
+
+}

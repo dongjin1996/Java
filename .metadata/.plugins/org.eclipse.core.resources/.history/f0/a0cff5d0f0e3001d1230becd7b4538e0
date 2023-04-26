@@ -1,0 +1,21 @@
+package test;
+
+public class Coffee {
+	double water = 300; //물량
+	double coffeebean = 100; //원두량
+	String plus;  // 맛
+	int shot;   //샷 추가 (1~3)
+	int sweet;  //단맛 정도 (1~5)
+	
+	Coffee(String plus, int shot, int sweet) {
+		this.plus = plus;
+		this.shot = shot;
+		this.sweet = sweet;
+	}
+	
+	
+	//샷 추가 
+	void shotadd(int shot) {
+		this.shot += shot;
+	}
+}

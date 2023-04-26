@@ -1,0 +1,9 @@
+package test;
+
+public class CoffeeExample {
+
+	public static void main(String[] args) {
+		String plus = {"카푸치노", "초코라떼", "바닐라라떼"};
+	}
+
+}
