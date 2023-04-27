@@ -1,0 +1,16 @@
+package ch06.sec11.exam02;
+
+public class EarthExample {
+
+	public static void main(String[] args) {
+		Earth earth1 = new Earth();
+		earth1.personCount = 70;
+		System.out.println(earth1.personCount);
+		
+		Earth earth2 = new Earth();
+		earth1.personCount = 90;
+		System.out.println(earth2.personCount);
+		
+	}
+
+}

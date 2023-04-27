@@ -6,13 +6,14 @@ public class Marine {
 	static int weapon = 6; // 공격력
 	static int armor = 0; // 방어력
 	
+	//참고. 정적필드의 값을 변경하는 메소드가 있으면 그 메소드도 정적메소드로 만들어주는게 좋다.
 	//공격력 증가
-	void weaponUp() {
+	static void weaponUp() {
 		weapon++;
 	}
 	
 	//방어력 증가
-	void armorUp() {
+	static void armorUp() {
 		armor++;
 	}
 	
