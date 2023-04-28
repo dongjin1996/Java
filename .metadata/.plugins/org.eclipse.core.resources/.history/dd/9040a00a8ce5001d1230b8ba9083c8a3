@@ -1,0 +1,11 @@
+package question;
+
+public class BankApplication {
+	//static 필드
+	private static Account[] accountArray = new Account[100];
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

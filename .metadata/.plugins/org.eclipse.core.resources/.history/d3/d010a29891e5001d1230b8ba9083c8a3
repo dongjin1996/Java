@@ -1,0 +1,72 @@
+package question;
+
+import java.util.Scanner;
+
+public class BankApplication {
+	//static 필드
+	private static Account[] accountArray = new Account[100];
+	private static Scanner scanner = new Scanner(System.in);
+	
+	public static void main(String[] args) {
+		boolean run = true;
+		
+		while(run) {
+			System.out.println("---------------------------------------------");
+			System.out.println("1.계좌생성 | 2.계좌목록 | 3. 예금 | 4.출금 | 5. 종료");
+			System.out.println("---------------------------------------------");
+			System.out.println("선택>");
+			int selectNo = scanner.nextInt();
+			
+			switch (selectNo) {
+			case 1: 
+				//계좌등록
+				createAccount();
+				break;
+			case 2:
+				//계좌목록
+				accountList();
+				break;
+			case 3:
+				//예금
+				deposit();
+				break;
+			case 4:
+				//출금
+				withdraw();
+				break;
+			case 5:
+				//종료
+				run = false;
+				break;
+			default:
+				System.out.println("1~5 사이의 숫자를 입력해주세요");
+				break;
+			}
+		}
+	}
+	//계좌 생성하기
+	private static void createAccount() {
+		System.out.println("----------");
+		System.out.println("계좌 생성");
+		System.out.println("----------");
+		
+		System.out.println("계좌 번호:");
+		String ano = scanner.next(); // String타입으로 입력을 받는다.
+		
+		System.out.println("계좌주:");
+		String owner = scanner.next();
+		
+		
+	}
+	
+	//계좌목록 보여주기
+	private static void accountList() {}
+	
+	//예금하기 
+	private static void deposit() {}
+	
+	//출금하기 
+	private static void withdraw() {}
+	
+	
+}

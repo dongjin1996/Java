@@ -1,0 +1,19 @@
+package ch07.sec07.exam02;
+
+public class ChildExample {
+
+	public static void main(String[] args) {
+				
+		//자동 타입 변환1
+//		Child child = new Child();
+//		Parent parent1 = child;
+//		
+		// 자동 타입 변환2
+		Parent parent = new Child();
+		
+		parent.method1();
+		parent.method2();
+		parent.mothod3();
+	}
+
+}

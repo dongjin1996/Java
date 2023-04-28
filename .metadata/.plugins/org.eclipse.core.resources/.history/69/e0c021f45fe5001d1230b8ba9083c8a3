@@ -1,0 +1,13 @@
+package ch07.sec02;
+
+public class SmartPhoneExample {
+
+	public static void main(String[] args) {
+		SmartPhone myPhone = new SmartPhone();
+		
+		System.out.println("와이파이 상태: "+ myPhone.wifi);
+		
+		
+	}
+
+}

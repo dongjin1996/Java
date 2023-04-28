@@ -1,0 +1,6 @@
+package question;
+
+//계좌
+public class Account {
+	
+}
