@@ -1,9 +1,0 @@
-package question;
-
-public class BankApplication {
-	private static Account[] accountArray = new Account[100];	
-	public static void main(String[] args) {
-		
-	}
-
-}
