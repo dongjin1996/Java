@@ -6,4 +6,5 @@
     <fullyQualifiedTypeName name="ch06.sec12.hankook.Tire"/>
     <fullyQualifiedTypeName name="ch07.sec06.package1.A"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
 </qualifiedTypeNameHistroy>
