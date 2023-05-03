@@ -33,7 +33,7 @@ public class ItemSell {
 		if(item == null) {
 			System.out.println("존재하지 않는 상품입니다.");
 		} else {
-			showPriceBonus(item, 8000);
+			showPriceBonus(item, 10000);
 		}
 	}
 	
