@@ -7,6 +7,7 @@
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\EZEN-40\eclipse-workspace\JAVA_STUDY\java_modeling"/>
 			<item value="C:\Users\EZEN-40\eclipse-workspace\JAVA_STUDY\Customer\Customer-main"/>
 			<item value="C:\Users\EZEN-40\eclipse-workspace\ec\source\projects\thisisjava"/>
 		</list>

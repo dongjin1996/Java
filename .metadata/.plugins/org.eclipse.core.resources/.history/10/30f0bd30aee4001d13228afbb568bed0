@@ -1,5 +1,0 @@
-package ch06.sec12.hyundai;
-
-public class Car {
-	ch06.sec12.hankook.Tire tire1 = new ch06.sec12.hankook.Tire();
-}

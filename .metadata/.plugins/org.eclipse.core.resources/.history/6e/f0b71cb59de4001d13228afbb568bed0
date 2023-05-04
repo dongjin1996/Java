@@ -1,7 +1,0 @@
-package ch06.sec11.exam02;
-
-public class Earth {
-	//상수 필드
-	//중요. 상수명은 대문자로 작성한다.
-	static final double EARTH
-}

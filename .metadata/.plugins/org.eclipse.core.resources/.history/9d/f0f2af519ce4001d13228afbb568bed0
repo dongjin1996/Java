@@ -1,7 +1,0 @@
-package ch06.sec11.exam01;
-
-public class Korean {
-	//인스턴스 final 필드
-	final String nation = "대한민국";
-	final String ssn = "123456-1234567";
-}
