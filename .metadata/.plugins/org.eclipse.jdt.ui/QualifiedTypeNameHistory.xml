@@ -8,5 +8,15 @@
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="ch08.sec02.RemoteControl"/>
     <fullyQualifiedTypeName name="java.util.Vector"/>
+    <fullyQualifiedTypeName name="javax.security.auth.Subject"/>
+    <fullyQualifiedTypeName name="school.Subject"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="school.Student"/>
+    <fullyQualifiedTypeName name="school.School"/>
+    <fullyQualifiedTypeName name="school.Score"/>
+    <fullyQualifiedTypeName name="grade.MajorEvaluation"/>
+    <fullyQualifiedTypeName name="grade.BasicEvaluation"/>
+    <fullyQualifiedTypeName name="grade.GradeEvaluation"/>
+    <fullyQualifiedTypeName name="utils.Define"/>
+    <fullyQualifiedTypeName name="school.report.GenerateGradeReport"/>
 </qualifiedTypeNameHistroy>

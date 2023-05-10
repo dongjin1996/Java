@@ -6,4 +6,6 @@
  *
  */
 module JAVA_STUDY {
+	requires java.desktop;
+	requires java.sql;
 }
