@@ -33,10 +33,10 @@ public class CustomerApplication {
 	
 	//환자 생성 메소드
 	public void createCustomer() {
-		Customer customer1 = new Customer(1001, "김아무", LeftEye);
-		Customer customer2 = new Customer(1002, "신아무", RightEye);
-		Customer customer3 = new Customer(1003, "윤아무", LeftEye);
-		Customer customer4 = new Customer(1004, "정아무", RightEye);
+		Customer customer1 = new Customer(1001, "김아무", LeftEye, "성인");
+		Customer customer2 = new Customer(1002, "신아무", RightEye, "학생");
+		Customer customer3 = new Customer(1003, "윤아무", LeftEye, "성인");
+		Customer customer4 = new Customer(1004, "정아무", RightEye, "학생");
 		
 		//환자 등록
 		cleanEye.addCustomer(customer1);
@@ -69,8 +69,8 @@ public class CustomerApplication {
 		addVisionForCustomer(customer3, RightEye, 0.5);
 		
 		//정아무의 양쪽 눈 시력 검진 결과 등록
-		addVisionForCustomer(customer4, LeftEye, 1.5);
-		addVisionForCustomer(customer4, RightEye, 1.3);
+		addVisionForCustomer(customer4, LeftEye, 0.1);
+		addVisionForCustomer(customer4, RightEye, 0.5);
 				
 				
 		

@@ -10,9 +10,11 @@ import grade.*;
 public class GenerateEyesReport {
 	Ophthalmology ophthalmology = Ophthalmology.getInstance(); 
 	
+	public static final String RESULT = " 안과 검진 결과표\t\t\n";
 	public static final String TITLE = " 시력 \t\t\n";
-	public static final String HEADER = "이름 | 환자번호 | 주시안 | 시력 |\t결과  \n";
-	public static final String LINE = "=======================================\n";
+	public static final String HEADER = "이름 | 환자번호 | 학생/성인| 주시안 | 시력 |결과  \n";
+	public static final String LINE = "==============================================\n";
+	public static final String LINE2 = "--------------------------------------------\n";
 	private StringBuffer buffer = new StringBuffer();
 	
 	//헤더, 몸통, 푸터 메소드
@@ -21,6 +23,7 @@ public class GenerateEyesReport {
 		ArrayList<Eyes> eyesList = ophthalmology.getEyesList(); 
 		
 		for(Eyes eyes : eyesList) {
+			makemain();
 			makeHeader(eyes);
 			makeBody(eyes);
 			makeFooter();
@@ -29,12 +32,19 @@ public class GenerateEyesReport {
 		return buffer.toString();
 	}
 	
+	//검진 결과표 메소드
+	public void makemain() {
+		buffer.append(GenerateEyesReport.LINE);
+		buffer.append("\t" + ophthalmology.getOPHTHALMOLOGY_NAME());
+		buffer.append(GenerateEyesReport.RESULT);
+	}
 	
 	//헤더 메소드 
 	public void makeHeader(Eyes eyes) {
 		buffer.append(GenerateEyesReport.LINE);
-		buffer.append("\t" + eyes.getEyeName());
+		buffer.append("\t\t" + eyes.getEyeName());
 		buffer.append(GenerateEyesReport.TITLE);
+		buffer.append(GenerateEyesReport.LINE2);
 		buffer.append(GenerateEyesReport.HEADER);
 		buffer.append(GenerateEyesReport.LINE);
 	}
@@ -48,7 +58,9 @@ public class GenerateEyesReport {
 			buffer.append(" | ");
 			buffer.append(customer.getCustomerID()); //환자번호
 			buffer.append(" | ");
-			buffer.append(customer.getMajorEye().getEyeName()); // 환자의 주 시안
+			buffer.append(customer.getAge()); // 학생/성인구분
+			buffer.append("   | ");
+			buffer.append(customer.getMajorEye().getEyeName()); // 환자의 주시안
 			buffer.append(" | ");
 			
 			//환자의 시력, 시력상태(안경착용권장여부)

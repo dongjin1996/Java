@@ -28,7 +28,12 @@ public class Ophthalmology {
 		eyesList.add(eyes);
 	}
 	
-	
+	//병원 이름 출력
+	public static String getOPHTHALMOLOGY_NAME() {
+		return OPHTHALMOLOGY_NAME;
+	}
+
+
 	//병원에 등록한 환자 출력
 	public ArrayList<Customer> getCustomerList() {
 		return customerList;
