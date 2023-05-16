@@ -10,5 +10,4 @@ INDEX VERSION 1.132+C:\Users\EZEN-40\eclipse-workspace\.metadata\.plugins\org.ec
 1061375863.index
 884928736.index
 3704190004.index
-45539944.index
 1949198024.index
