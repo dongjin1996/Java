@@ -88,4 +88,10 @@
 			<item value="C:\Users\EZEN-40\Desktop\jar.test.jar"/>
 		</list>
 	</section>
+	<section name="BuildPathsPropertyPage">
+		<item key="pageIndex" value="3"/>
+	</section>
+	<section name="ClasspathContainerSelectionPage">
+		<item key="index" value="0"/>
+	</section>
 </section>
