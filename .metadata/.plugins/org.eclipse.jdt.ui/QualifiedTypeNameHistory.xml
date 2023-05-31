@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
-    <fullyQualifiedTypeName name="java.util.Calendar"/>
-    <fullyQualifiedTypeName name="ch06.sec12.hankook.Tire"/>
-    <fullyQualifiedTypeName name="ch07.sec06.package1.A"/>
-    <fullyQualifiedTypeName name="ch08.sec02.RemoteControl"/>
-    <fullyQualifiedTypeName name="javax.security.auth.Subject"/>
     <fullyQualifiedTypeName name="school.Student"/>
     <fullyQualifiedTypeName name="school.Score"/>
     <fullyQualifiedTypeName name="grade.MajorEvaluation"/>
@@ -18,7 +12,6 @@
     <fullyQualifiedTypeName name="ch09.sec03.exam01.A.B"/>
     <fullyQualifiedTypeName name="ch09.sec05.exam02.A"/>
     <fullyQualifiedTypeName name="ch11.sec06.InsufficientException"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="java.util.StringTokenizer"/>
     <fullyQualifiedTypeName name="Ophthalmology.Ophthalmology"/>
@@ -50,8 +43,21 @@
     <fullyQualifiedTypeName name="school.School"/>
     <fullyQualifiedTypeName name="school.Subject"/>
     <fullyQualifiedTypeName name="utils.Define"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="school.report.GenerateGradeReport"/>
     <fullyQualifiedTypeName name="java.io.File"/>
     <fullyQualifiedTypeName name="java.io.FileInputStream"/>
+    <fullyQualifiedTypeName name="java.net.InetAddress"/>
+    <fullyQualifiedTypeName name="java.net.ServerSocket"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.net.Socket"/>
+    <fullyQualifiedTypeName name="java.net.SocketAddress"/>
+    <fullyQualifiedTypeName name="java.net.DatagramSocket"/>
+    <fullyQualifiedTypeName name="java.net.DatagramPacket"/>
+    <fullyQualifiedTypeName name="java.net.InetSocketAddress"/>
+    <fullyQualifiedTypeName name="pack1.A"/>
+    <fullyQualifiedTypeName name="pack2.B"/>
+    <fullyQualifiedTypeName name="pack3.C"/>
+    <fullyQualifiedTypeName name="pack4.D"/>
 </qualifiedTypeNameHistroy>

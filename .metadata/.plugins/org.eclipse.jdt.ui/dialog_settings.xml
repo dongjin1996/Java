@@ -3,6 +3,9 @@
 	<item key="org.eclipse.jdt.ui.last.selected.jre.kind2" value="2"/>
 	<item key="org.eclipse.jdt.ui.last.selected.execution.enviroment" value="JavaSE-11"/>
 	<item key="org.eclipse.jdt.ui.last.external.project" value="D:\project\project\ec-project"/>
+	<item key="org.eclipse.jdt.ui.last.selected.create.moduleinfo.comments" value="false"/>
+	<item key="org.eclipse.jdt.ui.last.selected.create.moduleinfo" value="true"/>
+	<item key="org.eclipse.jdt.ui.lastextjar" value="C:\Users\EZEN-40\eclipse-workspace\my.lb\dist"/>
 	<section name="org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart">
 		<item key="group_libraries" value="true"/>
 		<item key="layout" value="2"/>
@@ -85,11 +88,12 @@
 		<item key="JarManifestWizardPage.MANIFEST_LOCATION" value=""/>
 		<item key="JarManifestWizardPage.SEAL_JAR" value="false"/>
 		<list key="JarPackageWizardPage.DESTINATION_NAMES_ID">
+			<item value="my.lb/list/my_lb.test.jar"/>
 			<item value="C:\Users\EZEN-40\Desktop\jar.test.jar"/>
 		</list>
 	</section>
 	<section name="BuildPathsPropertyPage">
-		<item key="pageIndex" value="3"/>
+		<item key="pageIndex" value="1"/>
 	</section>
 	<section name="ClasspathContainerSelectionPage">
 		<item key="index" value="0"/>
