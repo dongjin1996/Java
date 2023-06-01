@@ -2,6 +2,7 @@ package application;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
+import java.util.HashMap;
 
 import hospital.*;
 import hospital.report.GenerateBloodReport;
@@ -16,6 +17,14 @@ public class CustomerApplication {
 	
 	public static void main(String[] args) {
 		CustomerApplication test = new CustomerApplication();
+		HashMap<String, Integer> str = new HashMap<String, Integer>();
+		str.put("김아무", 1001);
+		str.put("신아무", 1002);
+		str.put("윤아무", 1003);
+		str.put("정아무", 1004);
+		
+		System.out.println(str);
+		
 		test.createBlood();
 		test.createCustomer();
 		

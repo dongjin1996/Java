@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="ch09.sec03.exam01.A.B"/>
-    <fullyQualifiedTypeName name="ch09.sec05.exam02.A"/>
     <fullyQualifiedTypeName name="ch11.sec06.InsufficientException"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="java.util.StringTokenizer"/>
@@ -60,4 +58,6 @@
     <fullyQualifiedTypeName name="hospital.Bleed"/>
     <fullyQualifiedTypeName name="hospital.report.GenerateBloodReport"/>
     <fullyQualifiedTypeName name="utils.Define"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
 </qualifiedTypeNameHistroy>

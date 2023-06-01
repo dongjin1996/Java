@@ -11,6 +11,7 @@ public class Customer {
 	private Bleed subBleed;
 	private ArrayList<Score> scoreList = new ArrayList<>();
 	
+	
 	//생성자
 	public Customer(int customerID, String customerName, Bleed majorBleed, String age) {
 		this.customerID = customerID;
