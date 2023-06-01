@@ -41,10 +41,10 @@ public class CustomerApplication {
 	
 	//환자 생성 메소드
 	public void createCustomer() {
-		Customer customer1 = new Customer(1001, "김아무", systolic, "성인");
-		Customer customer2 = new Customer(1002, "신아무", relaxation, "학생");
-		Customer customer3 = new Customer(1003, "정아무", systolic, "성인");
-		Customer customer4 = new Customer(1004, "윤아무", relaxation, "학생");
+		Customer customer1 = new Customer(1001, "김아무", relaxation, "성인");
+		Customer customer2 = new Customer(1002, "신아무", systolic, "학생");
+		Customer customer3 = new Customer(1003, "정아무", relaxation, "성인");
+		Customer customer4 = new Customer(1004, "윤아무", systolic, "학생");
 		
 		//환자 등록
 		cleanBlood.addCustomer(customer1);

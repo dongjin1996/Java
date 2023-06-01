@@ -57,7 +57,7 @@ public class GenerateBloodReport {
 	
 	
 	//몸통 메소드 
-	public void makeBody (Bleed bleed) {
+	public void makeBody ( Bleed bleed ) {
 		LinkedList<Customer> customerList = bleed.getCustomerList();
 		
 		for(Customer customer : customerList) {
@@ -70,8 +70,8 @@ public class GenerateBloodReport {
 			buffer.append(customer.getMajorBleed().getBloodName()); //수축기. 이완기
 			buffer.append(" | ");
 			
-			//환자의 혈압상태 
 			
+			//환자의 혈압상태 		
 			getScoreGrade(customer, bleed.getBloodID());
 			buffer.append(" \n ");
 			buffer.append(GenerateBloodReport.LINE);
@@ -90,7 +90,7 @@ public class GenerateBloodReport {
 			if(score.getBleed().getBloodID() == majorID) {
 				String grade;
 				
-				if(score.getBleed().getBloodID() == majorID) {
+			if(score.getBleed().getBloodID() == majorID) {
 				grade = blood[Define.systolic_blood].getBlood(score.getBlood());
 			} else {
 				grade = blood[Define.relaxation_blood].getBlood(score.getBlood());

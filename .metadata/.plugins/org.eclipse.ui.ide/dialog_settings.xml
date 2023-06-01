@@ -7,6 +7,7 @@
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\EZEN-28\eclipse-workspace\Java"/>
 			<item value="C:\Users\USER\Desktop\비둘기\Java"/>
 			<item value="C:\Users\EZEN-40\eclipse-workspace\JAVA_STUDY\StudentInfo2"/>
 			<item value="C:\Users\EZEN-40\eclipse-workspace\JAVA_STUDY\java_modeling"/>
@@ -14,8 +15,8 @@
 			<item value="C:\Users\EZEN-40\eclipse-workspace\ec\source\projects\thisisjava"/>
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
-			<item value="C:\Users\EZEN-40\Desktop\jar.test.jar"/>
 			<item value=""/>
+			<item value="C:\Users\EZEN-40\Desktop\jar.test.jar"/>
 		</list>
 	</section>
 	<section name="NewWizardAction">

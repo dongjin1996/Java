@@ -6,7 +6,7 @@ public class Systolic implements Blood{
 	public String getBlood(int point) {
 		String blood;
 		//이완기
-		if(point > 80) {
+		if(point < 80) {
 			blood = "정상";
 		} else if (point >= 80  && point <= 89) {
 			blood = "고혈압전단계";

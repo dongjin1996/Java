@@ -8,6 +8,7 @@ public class Customer {
 	private String customerName; //환자이름
 	private String age; //학생/ 성인구분
 	private Bleed majorBleed;
+	private Bleed subBleed;
 	private ArrayList<Score> scoreList = new ArrayList<>();
 	
 	//생성자
@@ -15,6 +16,7 @@ public class Customer {
 		this.customerID = customerID;
 		this.customerName = customerName;
 		this.majorBleed = majorBleed;
+		this.subBleed = subBleed;
 		this.age = age;
 	}
 	
@@ -61,6 +63,14 @@ public class Customer {
 
 	public void setMajorBleed(Bleed majorBleed) {
 		this.majorBleed = majorBleed;
+	}
+
+	public Bleed getSubBleed() {
+		return subBleed;
+	}
+
+	public void setSubBleed(Bleed subBleed) {
+		this.subBleed = subBleed;
 	}
 	
 	

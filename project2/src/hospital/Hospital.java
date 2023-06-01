@@ -6,9 +6,9 @@ import java.util.LinkedList;
 public class Hospital {
 	
 	private static Hospital instance = null;
-	private static String HOSTPITAL_NAME = "Clean blood";
-	private LinkedList<Customer> customerList = new LinkedList<>();
-	private ArrayList<Bleed> BloodsList = new ArrayList<>();
+	private static String HOSTPITAL_NAME = "Clean blood"; //병원이름
+	private LinkedList<Customer> customerList = new LinkedList<>(); //병원에 등록한 환자
+	private ArrayList<Bleed> BloodsList = new ArrayList<>(); //혈압 수축기.이완기 검사
 	
 	private Hospital() {};
 	
